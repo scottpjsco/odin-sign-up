@@ -1,0 +1,33 @@
+@font-face {
+    font-family: my-cool-font;
+    src: url(../fonts/Norse-Bold.otf);
+  }
+  
+  h1 {
+    font-family: Norse-Bold, sans-serif;
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100vh;
+    height: 100vh;
+}
+
+.left{
+    background-image: url('./images/halie-west-25xggax4bSA-unsplash.jpg');
+    width: 35vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+}
+
