@@ -24,10 +24,23 @@ body{
     width: 35vw;
     background-repeat: no-repeat;
     background-size: cover;
+    color: white;
+    /* font-family: Norse-Bold, sans-serif; */
 }
 
 .right {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
 
+.first {
+    height: 33vh;
+}
+
+.second {
+    height: 33vh;
+}
+
+.third{
+    height: 33vh;
+}
