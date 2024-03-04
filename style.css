@@ -46,7 +46,7 @@ body{
 }
 
 .second {
-    height: 40vh;
+    height: 50vh;
     background-color: white;
 }
 
@@ -83,4 +83,18 @@ input:focus{
 
 input:invalid{
     border: 1px solid red;
+}
+
+#error{
+    color: red;
+    font-size: 12px;
+}
+
+.btn-green {
+    background-color: #596D48;
+    color: white;
+    border: 1px solid #596D48;
+    border-radius: 7px;
+    height: 40px;
+    width: 200px;
 }
