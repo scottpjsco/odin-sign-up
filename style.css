@@ -1,5 +1,5 @@
 @font-face {
-    font-family: my-cool-font;
+    font-family: Norse-Bold;
     src: url(../fonts/Norse-Bold.otf);
   }
   
@@ -10,6 +10,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: Norse-Bold, sans-serif;
 }
 
 .main {
@@ -36,7 +37,7 @@ body{
 }
 
 .first {
-    height: 33vh;
+    height: 25vh;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
@@ -57,5 +58,13 @@ body{
 .form-main-div {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    margin-left: 50px;
+    width: 60%;
 
+}
+
+.form-div{
+    display: flex;
+    flex-direction: column;
 }
