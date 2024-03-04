@@ -26,6 +26,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    display: flex;
+    flex-direction: column;
     /* font-family: Norse-Bold, sans-serif; */
 }
 
@@ -52,6 +54,8 @@ body{
 
 .third{
     height: 35vh;
+    margin-left: 50px;
+    margin-top: 20px;
 }
 
 
@@ -97,4 +101,38 @@ input:invalid{
     border-radius: 7px;
     height: 40px;
     width: 200px;
+    font-weight: bolder;
+    font-size: medium;
+}
+
+.hyperLink{
+    margin-top: 25px;
+}
+
+.a-footer{
+    color: white;
+}
+
+.login{
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.p-footer{
+    font-size: 12px;
+    text-align: center;
+}
+
+.forImage{
+    height:40vh;
+    display: flex;
+    justify-content:center;
+}
+
+.forFooter{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
