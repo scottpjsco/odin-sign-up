@@ -46,12 +46,12 @@ body{
 }
 
 .second {
-    height: 33vh;
+    height: 40vh;
     background-color: white;
 }
 
 .third{
-    height: 33vh;
+    height: 35vh;
 }
 
 
@@ -67,4 +67,20 @@ body{
 .form-div{
     display: flex;
     flex-direction: column;
+    margin-bottom: 10px;
+}
+
+input{
+    width:200px;
+    height: 25px;
+    border:1px solid #E5E7EB;
+    border-radius: 5px;
+}
+
+input:focus{
+    border: 1px solid blue;
+}
+
+input:invalid{
+    border: 1px solid red;
 }
